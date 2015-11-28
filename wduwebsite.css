@@ -1,0 +1,332 @@
+@font-face {
+		font-family: 'Droidiga'; src: url("droidiga/Droidiga.ttf") format("truetype");
+}
+
+@font-face {
+		font-family: "nexabold"; src: url("nexabold.otf") format("opentype");
+}
+
+@font-family {
+		font-family: "nexalight"; src: url("nexalight.otf") format("opentype");
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+#header {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1%;
+	padding-right: ;
+	font-family: 'Droidiga', regular, sans-serif;
+	text-align: center;
+	font-size: 375%;
+	border-bottom-style: solid;
+}
+
+
+#logobox {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+}
+	
+#desk {
+	margin-top: 7%;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #003f87;
+	position: fixed;
+}
+
+#circle {
+	margin-top: -1.27%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #AAAAAA;
+	box-shadow: 0 5px 10px #332E2C;
+}
+
+#paper1 {
+	margin-top: 6.5%;
+	margin-left: 25%;
+	width: 15%;
+	transform: rotate(-20deg);
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 5px 10px #332E2C;
+	cursor: pointer;
+}
+
+#paper2 {
+	margin-top: 3%;
+	margin-left: 34%;
+	width: 15%;
+	transform: rotate(-12deg);
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 5px 10px #332E2C;
+	cursor: pointer;
+}
+
+#paper3 {
+	margin-top: 3%;
+	margin-left: 54%;
+	width: 15%;
+	transform: rotate(12deg);
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 5px 10px #332E2C;
+	cursor: pointer;
+}
+
+#paper4 {
+	margin-top: 6.5%;
+	margin-left: 63%;
+	width: 15%;
+	transform: rotate(20deg); 
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 5px 10px #332E2C;
+	cursor: pointer;
+}
+
+#paper5 {
+	margin-top: 1.5%;
+	margin-left: 42.5%;
+	width: 15%;
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	box-shadow: 0 5px 10px #332E2C;
+	cursor: pointer;
+}
+
+#joinbox {
+	margin-top: 7%;
+	margin-left: 31.5%;
+	width: 35%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	padding: 1%;
+	font-size: 100%;
+	font-family: "georgia";
+}
+
+#jointitle {
+	font-family: "nexabold", regular, sans-serif;
+	font-size: 160%;
+	padding: 4%;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	width: 100%;
+}
+
+#CFbox {
+	width: 60%;
+	float: right;
+}
+
+#jointext{
+	font-family: Georgia;
+	float: left;
+	width: 40%;
+}
+
+#eventsbox {
+	margin-top: 7%;
+	margin-left: 23.5%;
+	padding-top: .5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 53%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	font-size: 100%;
+}
+
+#graphic1 {
+	width: 28.5%;
+	text-align: center;
+	font-family: 'nexalight', regular, sans-serif;
+	font-size: 150%;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
+}
+
+#aboutbox {
+	margin-top: 7%;
+	margin-left: 22.5%;
+	padding-top: .5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 55%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	font-size: 100%;
+}
+
+#aboutheader1 {
+	font-family: "nexabold", regular, sans-serif;
+	font-size: 200%;
+	padding: 1%;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	width: 20%;
+}
+
+#aboutbody {
+	margin-top: 1%;
+	width: 60%;
+	font-family: "Georgia", regular, serif;
+	float: left;
+}
+
+#aboutheader2 {
+	font-family: "nexabold", regular, sans-serif;
+	font-size: 200%;
+	padding: 1%;
+	margin-bottom: 1%;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	width: 22%;
+	float: right;
+}
+
+#aboutgraphicscontainer {
+	float: right;
+	width: 35%;
+}
+
+#aboutbio {
+	margin-top: -19%;
+	margin-left: -27%;
+	padding-top: .5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 25%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	font-size: 100%;
+	font-family: "georgia";
+}
+
+#bioheading {
+	font-family: "nexabold", regular, sans-serif;
+	font-size: 200%;
+	padding: 1%;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	width: 35%;
+}
+
+#steve {
+	width: 50%;
+	text-align: center;
+	font-family: "nexabold";
+	float: left;
+	cursor: pointer;
+	
+}
+
+#korry {
+	width: 50%;
+	text-align: center;
+	font-family: "nexabold";
+	float: right;
+	cursor: pointer;
+}
+
+#justin {
+	width: 50%;
+	text-align: center;
+	font-family: "nexabold";
+	float: left;
+	margin-top: 3%;
+	cursor: pointer;
+}
+
+#kristen {
+	width: 50%;
+	text-align: center;
+	font-family: "nexabold";
+	float: right;
+	margin-top: 3%;
+	cursor: pointer;
+}
+
+#photobox {
+	margin-top: 7%;
+	margin-left: 12.5%;
+	width: 75%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	padding: 1%;
+	font-size: 100%;
+}
+
+#bigphoto {
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+	float: left;
+}
+
+#smallphoto {
+	float: right;
+	width: 45%;
+}
+
+#smallphoto > div {
+	float: right;
+	margin: 1px;
+} 
+
+#smallphoto > div > img {
+	height: 100px;
+	cursor: pointer;
+}
+
+#resourcesbox {
+	margin-top: 7%;
+	margin-left: 22.5%;
+	padding-top: .5%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+	width: 55%;
+	position: fixed;
+	box-shadow: 0 5px 10px #332E2C;
+	background-color: white;
+	font-size: 100%;
+	font-family: "georgia";
+}
+
+#tube{
+	float:right;
+}
+
+#resourcestitle {
+	font-family: "nexabold", regular, sans-serif;
+	font-size: 200%;
+	padding: 1%;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	width: 18%;
+}
+
